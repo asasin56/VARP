@@ -144,8 +144,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnPosition: {fileID: 1400913426998033654}
   End: {fileID: 4501847851951337648}
-  RangeDistanceXZ: {x: 3, y: 5, z: 1, w: 3}
-  RangeDistanceY: {x: 1, y: 2}
+  RangeDistanceXZ: {x: 10, y: 15, z: -5, w: 5}
+  RangeDistanceY: {x: -3, y: 3}
 --- !u!1 &3807123575925533754
 GameObject:
   m_ObjectHideFlags: 0

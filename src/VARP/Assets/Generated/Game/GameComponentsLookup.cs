@@ -10,13 +10,13 @@ public static class GameComponentsLookup {
 
     public const int Camera = 0;
     public const int CharacterController = 1;
-    public const int InitialPosition = 2;
-    public const int Joystick = 3;
-    public const int JumpEvent = 4;
-    public const int Jumping = 5;
-    public const int OnPlayerGroundEvent = 6;
-    public const int Player = 7;
-    public const int Resources = 8;
+    public const int Joystick = 2;
+    public const int JumpEvent = 3;
+    public const int Jumping = 4;
+    public const int OnPlayerGroundEvent = 5;
+    public const int Player = 6;
+    public const int Resources = 7;
+    public const int SpawnPosition = 8;
     public const int GameConfig = 9;
 
     public const int TotalComponents = 10;
@@ -24,26 +24,26 @@ public static class GameComponentsLookup {
     public static readonly string[] componentNames = {
         "Camera",
         "CharacterController",
-        "InitialPosition",
         "Joystick",
         "JumpEvent",
         "Jumping",
         "OnPlayerGroundEvent",
         "Player",
         "Resources",
+        "SpawnPosition",
         "GameConfig"
     };
 
     public static readonly System.Type[] componentTypes = {
         typeof(Game.CameraComponent),
         typeof(Game.CharacterControllerComponent),
-        typeof(Game.InitialPosition),
         typeof(Game.JoystickComponent),
         typeof(Game.JumpEventComponent),
         typeof(Game.Jumping),
         typeof(Game.OnPlayerGroundEventComponent),
         typeof(Game.PlayerComponent),
         typeof(Game.ResourcesComponent),
+        typeof(Game.SpawnPosition),
         typeof(GameConfigComponent)
     };
 }

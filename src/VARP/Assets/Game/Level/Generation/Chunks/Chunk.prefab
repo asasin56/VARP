@@ -145,8 +145,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Begin: {fileID: 6074983038431257524}
   End: {fileID: 1170564144402416768}
-  RangeDistanceXZ: {x: 3, y: 5, z: 1, w: 3}
-  RangeDistanceY: {x: 1, y: 2}
+  RangeDistanceXZ: {x: 10, y: 15, z: 10, w: -10}
+  RangeDistanceY: {x: -3, y: 3}
 --- !u!1 &1914862852864088074
 GameObject:
   m_ObjectHideFlags: 0

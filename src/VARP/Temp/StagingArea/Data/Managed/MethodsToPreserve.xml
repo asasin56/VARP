@@ -1,0 +1,10 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="Game.Player.Movement.Jump.JumpButton">
+			<method name="Jump"/>
+		</type>
+		<type fullname="UIActions">
+			<method name="LoadScene"/>
+		</type>
+	</assembly>
+</linker>

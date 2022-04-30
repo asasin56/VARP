@@ -16,7 +16,7 @@ MonoBehaviour:
   JumpForce: 1
   JumpHeight: 10
   DeathHeight: -10
-  Gravity: -0.3
+  Gravity: -0.2
   Sensitivity: {x: 0.4, y: -0.4}
-  CameraOffset: {x: 0, y: 0, z: 0}
+  CameraOffset: {x: 0, y: 1, z: 0}
   Prefab: {fileID: 4829509873143737396, guid: d56f5fae55bdea141b23ce1b33826a79, type: 3}

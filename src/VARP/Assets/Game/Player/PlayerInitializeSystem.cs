@@ -31,7 +31,7 @@ namespace Game.Player
             if (player.TryGetComponent(out CharacterController controller))
             {
                 controller.enabled = false; 
-                controller.transform.position = _contexts.game.initialPosition.Value;
+                controller.transform.position = _contexts.game.spawnPosition.Value;
                 controller.enabled = true;
                 _contexts.game.SetCharacterController(controller);
             }

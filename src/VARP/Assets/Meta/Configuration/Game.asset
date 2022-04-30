@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Game
   m_EditorClassIdentifier: 
   PlayerConfiguration: {fileID: 11400000, guid: d4932839d89d1804cb35b6a986e7f0a7, type: 2}
-  ChunkCount: {x: 5, y: 8}
+  ChunkCount: {x: 10, y: 1000}
   StartChunk: {fileID: -353152052853949337, guid: 7fb72cf495afab848b390f53e8127ecd, type: 3}
   Chunks:
   - {fileID: 2274028926656701201, guid: 24fdd846e60064843a5d57a63db19090, type: 3}

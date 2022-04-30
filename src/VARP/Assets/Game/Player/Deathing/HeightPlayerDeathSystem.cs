@@ -13,7 +13,7 @@ public class HeightPlayerDeathSystem : IFixedExecuteSystem
         if (_contexts.game.player.Value.transform.position.y < 
             _contexts.game.resources.Value.PlayerConfiguration.DeathHeight)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            _contexts.game.player.Value.transform.position = _contexts.game.spawnPosition.Value; 
         }
     }
 }

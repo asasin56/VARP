@@ -14,8 +14,9 @@ namespace Game
     [Unique] [Game] public class JoystickComponent : IComponent { public Joystick Value; }
     [Game] [Unique] public class JumpEventComponent : IComponent { }
     
-    [Game] [Unique] public class InitialPosition : IComponent { public Vector3 Value; }
+    [Game] [Unique] public class SpawnPosition : IComponent { public Vector3 Value; }
 
     [Game] [Unique] public class OnPlayerGroundEventComponent : IComponent { }
     [Game] [Unique] public  class  Jumping : IComponent { }
-}
+
+    }
